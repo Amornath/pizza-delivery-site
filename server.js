@@ -9,9 +9,9 @@ const userRoute = require("./routes/userRoute");
 const orderRoute = require("./routes/orderRoute");
 
 app.use(express.json());
-app.get("/", (req, res) => {
-  res.send("<h1>Server runing</h1>");
-});
+// app.get("/", (req, res) => {
+//   res.send("<h1>Server runing</h1>");
+// });
 
 app.use("/api/pizzas/", pizzaRoute);
 app.use("/api/auth/", userRoute);
