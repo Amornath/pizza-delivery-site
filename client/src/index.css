@@ -51,3 +51,29 @@ input {
   text-decoration: none !important;
   display: inline !important;
 }
+
+.register {
+  background-image: url("./images/bg1.svg");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 80vh !important;
+  width: 100vw !important;
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+}
+
+.login {
+  background-image: url("./images/bg2.svg");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 80vh !important;
+  width: 100vw !important;
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+}

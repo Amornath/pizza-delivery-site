@@ -27,7 +27,7 @@ const LoginScreen = () => {
   };
 
   return (
-    <div>
+    <div className="login">
       <div className="row justify-content-center mt-5">
         <div className="col-md-5 text-start">
           {loading && <Loading />}
