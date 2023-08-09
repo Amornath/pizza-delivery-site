@@ -1,6 +1,5 @@
 var mongoose = require("mongoose");
-var mongoDB =
-  "mongodb+srv://Amor:Password%401@firstproject.h3wcp.mongodb.net/MernPizza?retryWrites=true&w=majority";
+var mongoDB = process.env.MONGO_URI;
 
 try {
   mongoose.connect(mongoDB, {
